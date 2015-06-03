@@ -1,0 +1,11 @@
+{
+  "name": "calculatorApp",
+  "version": "1.0.0",
+  "description": "Practicing using express.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lindsay Elia",
+  "license": "ISC"
+}
