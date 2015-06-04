@@ -1,0 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	color: red;
+}
+
+em {
+	font-style: normal;
+/*	font-weight: bold;  */
+}
