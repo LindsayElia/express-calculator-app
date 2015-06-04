@@ -33,16 +33,16 @@ app.get("/sub/:num1/:num2", function(request, response){
 
 // multiply numbers
 app.get("/mult/:num1/:num2", function(request, response){
-	var n1 = parseFloat(request.params.num1); // parseFloat can parse a string with a decimal into a number
-	var n2 = parseFloat(request.params.num2); // using here instead of parseInt which is only for whole numbers
+	var n1 = parseFloat(request.params.num1);
+	var n2 = parseFloat(request.params.num2); 
 	var sum = n1 * n2;
 	response.render("mult", {number:sum});
 });
 
 // divide numbers
 app.get("/div/:num1/:num2", function(request, response){
-	var n1 = parseFloat(request.params.num1); // parseFloat can parse a string with a decimal into a number
-	var n2 = parseFloat(request.params.num2); // using here instead of parseInt which is only for whole numbers
+	var n1 = parseFloat(request.params.num1); 
+	var n2 = parseFloat(request.params.num2); 
 	var sum = (n1 / n2);
 	response.render("div", {number:sum});
 });
